@@ -14,11 +14,14 @@ const useEffectDarkMode = () => {
   const [themeState, setThemeState] = React.useState({
     dark: false,
     hasThemeMounted: false
-  });
+  } );
+  
+  
   React.useEffect(() => {
     const lsDark = localStorage.getItem("dark") === "true";
-    setThemeState({ ...themeState, dark: lsDark, hasThemeMounted: true });
-  }, []);
+    setThemeState( { ...themeState, dark: lsDark, hasThemeMounted: true } );
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []); 
 
   return [themeState, setThemeState];
 };

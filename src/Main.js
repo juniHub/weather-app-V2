@@ -26,15 +26,15 @@ const Main = () =>
         <header className={classes.Header}>
             
         <h1 className="">
-            <img alt="weather-icon" src="https://img.icons8.com/clouds/100/000000/sun.png"/>
+            <img src="https://img.icons8.com/color/48/000000/weather-forecast.png" alt="weather forecast"/>
             </h1>
             
             <button aria-label="Left Align" aria-hidden="true" className={ classes.themeBtn } onClick={() => themeState.toggle()}>
       
         {themeState.dark ?   
-         <i className="fas fa-cloud-sun"></i>
+         <i className="fas fa-adjust"></i>
         
-        :  <i className="fas fa-cloud-moon"></i>}
+        :  <i className="fas fa-adjust"></i>}
         </button>
        
         </header>

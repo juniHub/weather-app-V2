@@ -15,10 +15,13 @@ const searchBar = (props) => {
             onChange={ props.onChangeHandler }
             value={props.value} 
             onKeyPress={ props.onClickHandler }
+            
             error={props.error}
           />
 
         </div>
+
+         <button className={ classes.enterBtn } onClick={ props.onClickHandler }>Enter</button>
     
         </div>
     );

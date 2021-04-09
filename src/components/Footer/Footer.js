@@ -15,7 +15,7 @@ const footer = (props) => {
 
            
                 <span>
-                    <a href="https://icons8.com/icon/64215/sun">Sun icon by Icons8</a>
+                   <a href="https://icons8.com/icon/kLj4x6XyooyO/weather-forecast">Weather forecast icon by Icons8</a>
                  </span>
 
                              
